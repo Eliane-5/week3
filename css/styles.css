@@ -48,3 +48,16 @@ p{
     background-repeat: no-repeat;
     background-size: contain;
 }
+/*End of service section*/
+
+/*Styling the service icons*/
+#Sicons{
+    text-align:center;
+}
+#h3{
+    margin-bottom: 30px;
+}
+#des1,#des2,#des3{
+    display:none;
+}
+/*End of what we do styling*/
