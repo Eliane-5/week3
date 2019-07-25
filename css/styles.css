@@ -19,3 +19,16 @@ h1{
     padding-top: 120px;
 } 
 /*End of header styling*/
+/* Styling of the about us section*/
+h3{
+    text-align: center;
+}
+.about{
+    padding:35px;
+    text-align: center;
+}
+p > .about{
+    line-height: 200%;
+}
+/* End of about styling*/
+
