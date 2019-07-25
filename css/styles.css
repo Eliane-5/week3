@@ -1,6 +1,6 @@
 /* start of styling of the header picture */
 
-/* .header{
+.header{
     background-image: url("../images/1.jpg");
     text-align: center;
     color: white;
@@ -17,5 +17,5 @@ h1{
 }
 #mouse{
     padding-top: 120px;
-} */
+} 
 /*End of header styling*/
