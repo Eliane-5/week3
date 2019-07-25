@@ -1,23 +1,28 @@
 /* start of styling of the header picture */
 
 .header{
-    background-image: url("../images/1.jpg");
     text-align: center;
     color: white;
+    padding-top: 245px;
+    margin-left:0 auto;
+}
+#header{
+    background-image: url("../images/1.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 750px;
-    width: 1320px;
-    padding-top: 245px;
-    font-size:12px;
+    height: 755px;
 }
 h1{
     line-height: 200%;
     padding-top:20px;
 }
 #mouse{
-    padding-top: 120px;
+    padding-top: 155px;
 } 
+#headp{
+    line-height: 0%;
+    font-size: 12px;
+}
 /*End of header styling*/
 /* Styling of the about us section*/
 h3{
@@ -27,8 +32,19 @@ h3{
     padding:35px;
     text-align: center;
 }
-p > .about{
+p{
     line-height: 200%;
 }
 /* End of about styling*/
 
+/*Styling the services section*/
+.services{
+    text-align: center;
+    color:white;
+    padding:102px;
+}
+#services{
+    background-image: url("../images/2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
