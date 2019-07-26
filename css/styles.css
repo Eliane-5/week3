@@ -61,3 +61,55 @@ p{
     display:none;
 }
 /*End of what we do styling*/
+
+/*Styling of portfolio*/
+#portfolio{
+    width:80%; 
+    margin-left:10%;
+    margin-top: 5%; 
+}
+#port1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:2%;
+}
+#port2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+} 
+#words, #words2{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    font-weight:50;
+}
+
+.word2>p,.word6>p{
+    color: black;
+    position:relative;
+    bottom: 300%;
+    right:130px;
+    font-size:20px;
+}
+.word1>p,.word5>p{
+    position:relative;
+    bottom: 300%;
+    right: 400px; 
+    font-size:20px;
+}
+.word3>p,.word7>p{
+    position:relative;
+    bottom: 300%;
+    left:130px;
+    font-size:20px;
+}
+.word4>p,.word8>p{
+    position:relative;
+    bottom:300%;
+    left: 400px;
+    font-size:20px;
+}
