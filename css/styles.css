@@ -187,3 +187,12 @@ form#form ::placeholder {
     opacity: 1;
 }
 /*End of contact styling*/
+/*Styling of icons*/
+#icons{
+    text-align: center;
+    margin-bottom: 3%;
+}
+#icons > img{
+    margin-right:15px;
+}
+/*End of icons styling*/
