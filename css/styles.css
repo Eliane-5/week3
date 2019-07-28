@@ -196,3 +196,8 @@ form#form ::placeholder {
     margin-right:15px;
 }
 /*End of icons styling*/
+/*styling of footer*/
+footer{
+    font-size:12px;
+    text-align: center;
+}
