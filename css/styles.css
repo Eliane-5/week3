@@ -47,6 +47,7 @@ p{
     background-image: url("../images/2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 4%;
 }
 /*End of service section*/
 
@@ -136,3 +137,53 @@ p{
 
 /*End of styling of portfolio*/
 
+/*Styling of contact*/
+#contact{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    padding-top:3%;
+    padding-left:20%;
+    padding-right:20%;
+    background-image: url("../images/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:550px;
+    color: white;
+}
+.inputstl {
+    padding: 9px;
+    border-radius: 0%;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    border-top: solid 1px white;
+    border-bottom: 1px solid grey;
+    outline: 0;  
+    margin-top:2%;
+}
+#message{
+    color: white;  
+}
+#Name{
+    margin-top:5%;
+    margin-right: 40px;
+    border-radius: 0%;
+    border-left:1px solid white;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    color: white;
+}
+#Email{
+    margin-top:5%;
+    border-radius: 0%;
+    border-left:1px solid white;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    color: white;
+}
+form#form ::placeholder {
+    color:white;
+    opacity: 1;
+}
+/*End of contact styling*/
