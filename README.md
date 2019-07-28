@@ -1,6 +1,6 @@
 # Delani studio IP.
-#### {Software designing company website}, {July,28,2019}
-#### By **{Kamana Irankunda Eliane}**
+#### Software designing company website, July,28,2019
+#### By **Kamana Irankunda Eliane**
 ## Description
 This is a website to highlight and make Delani studios more known to the general public. It is an online website that anyone can access all over the globe.
 ## Accessibility Requirements
@@ -18,8 +18,8 @@ This is a website to highlight and make Delani studios more known to the general
 * CSS
 * JAVA SCRIPT
 ## Support and contact details
-If you have any quesions or run into an issue i could help you with, contact me by e-mail on (irankundaeliane9@gmail.com).
+If you have any quesions or run into an issue i could help you with, contact me by e-mail on **(irankundaeliane9@gmail.com)**.
 ### License
-
-Copyright (c) {2019} **{Kamana Irankunda Eliane}**
+MIT license.
+Copyright (c) 2019 **Kamana Irankunda Eliane**
 
