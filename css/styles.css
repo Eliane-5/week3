@@ -9,7 +9,7 @@
 #header{
     background-image: url("../images/1.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 755px;
 }
 h1{
@@ -46,7 +46,7 @@ p{
 #services{
     background-image: url("../images/2.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 /*End of service section*/
 
@@ -66,50 +66,73 @@ p{
 #portfolio{
     width:80%; 
     margin-left:10%;
-    margin-top: 5%; 
+    margin-top: 4%; 
+}
+.word1, .word2, .word3, .word4 , .word5 ,.word6, .word7 ,.word8{
+    text-align: center;
+    font-weight: 100%;
+    color:black;
+    padding-top:55px;
 }
 #port1{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top:2%;
+    margin-bottom: 4%;
 }
-#port2{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 5%;
-    margin-bottom: 5%;
-} 
-#words, #words2{
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    font-weight:50;
+.img1{
+    background-image: url("../images/work1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:150px;
+    margin-bottom: 10px;
+}
+.img2{
+    background-image: url("../images/work2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:150px;
+    margin-bottom: 10px;
+}
+.img3{
+    background-image: url("../images/work3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:150px;
+    margin-bottom: 10px;
+}
+.img4{
+    background-image: url("../images/work4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:150px;
+    margin-bottom: 10px;
+}
+.img5{
+    background-image: url("../images/work5.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:150px;
+    margin-bottom: 10px;
+}
+.img6{
+    background-image: url("../images/work6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:150px;
+    margin-bottom: 10px;
+}
+.img7{
+    background-image: url("../images/work7.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:150px;
+    margin-bottom: 10px;
+}
+.img8{
+    background-image: url("../images/work8.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:150px;
+    margin-bottom: 10px;
 }
 
-.word2>p,.word6>p{
-    color: black;
-    position:relative;
-    bottom: 300%;
-    right:130px;
-    font-size:20px;
-}
-.word1>p,.word5>p{
-    position:relative;
-    bottom: 300%;
-    right: 400px; 
-    font-size:20px;
-}
-.word3>p,.word7>p{
-    position:relative;
-    bottom: 300%;
-    left:130px;
-    font-size:20px;
-}
-.word4>p,.word8>p{
-    position:relative;
-    bottom:300%;
-    left: 400px;
-    font-size:20px;
-}
+/*End of styling of portfolio*/
+
