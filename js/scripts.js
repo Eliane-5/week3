@@ -20,7 +20,7 @@ $(document).ready(function(){
         opacity:1
     });
     $('.img1').hover(function() {
-        $(this).stop().animate({opacity:0.4},200);
+        $(this).stop().animate({opacity:0.5},200);
         $(".word1").fadeIn();
 
     }, function() {
@@ -32,7 +32,7 @@ $(document).ready(function(){
         opacity:1
     });
     $('.img2').hover(function() {
-        $(this).stop().animate({opacity:0.4},200);
+        $(this).stop().animate({opacity:0.5},200);
         $(".word2").fadeIn();
 
     }, function() {
@@ -44,7 +44,7 @@ $(document).ready(function(){
         opacity:1
     });
     $('.img3').hover(function() {
-        $(this).stop().animate({opacity:0.4},200);
+        $(this).stop().animate({opacity:0.5},200);
         $(".word3").fadeIn();
 
     }, function() {
@@ -56,7 +56,7 @@ $(document).ready(function(){
         opacity:1
     });
     $('.img4').hover(function() {
-        $(this).stop().animate({opacity:0.4},200);
+        $(this).stop().animate({opacity:0.5},200);
         $(".word4").fadeIn();
 
     }, function() {
@@ -68,7 +68,7 @@ $(document).ready(function(){
         opacity:1
     });
     $('.img5').hover(function() {
-        $(this).stop().animate({opacity:0.4},200);
+        $(this).stop().animate({opacity:0.5},200);
         $(".word5").fadeIn();
 
     }, function() {
@@ -80,7 +80,7 @@ $(document).ready(function(){
         opacity:1
     });
     $('.img6').hover(function() {
-        $(this).stop().animate({opacity:0.4},200);
+        $(this).stop().animate({opacity:0.5},200);
         $(".word6").fadeIn();
 
     }, function() {
@@ -92,7 +92,7 @@ $(document).ready(function(){
         opacity:1
     });
     $('.img7').hover(function() {
-        $(this).stop().animate({opacity:0.4},200);
+        $(this).stop().animate({opacity:0.5},200);
         $(".word7").fadeIn();
 
     }, function() {
@@ -104,11 +104,15 @@ $(document).ready(function(){
         opacity:1
     });
     $('.img8').hover(function() {
-        $(this).stop().animate({opacity:0.4},200);
+        $(this).stop().animate({opacity:0.5},200);
         $(".word8").fadeIn();
 
     }, function() {
         $(this).stop().animate({opacity:1},200)
         $(".word8").fadeOut();
+    });
+    $("button").click(function(){
+        var name=$("#Name").val();
+        alert(name + ", We have received your message. Thank you for reaching out to us.");
     });
 });
